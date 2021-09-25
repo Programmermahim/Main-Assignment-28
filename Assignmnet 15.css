@@ -1,0 +1,219 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.fix_width {
+    width: 1150px;
+    margin: auto;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.text_center {
+    text-align: center;
+}
+.header {
+    background-color: rgb(26, 151, 127);
+}
+.header_text {
+    float: left;
+    width: 40%;
+}
+.header_text h2 {
+    color: rgb(255, 255, 255);
+    margin-left: 68px;
+    margin-top: 16px;
+}
+.header_menu {
+    float: right;
+    width: 60%;
+}
+.header_menu ul {
+    text-align: center;
+    padding: 20px 0px;
+}
+.header_menu ul li {
+    display: inline-block;
+}
+.header_menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    margin-right: 7px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.header_image {
+    background-image: url("https://i.ibb.co/9npzvnc/header-bg01.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px;
+}
+.header_image h2 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    font-size: 75px;
+    font-family: inherit;
+    text-transform: uppercase;
+}
+.header_image p {
+    color: rgb(255, 255, 255);
+    padding: 23px 15px;
+    text-align: center;
+    font-size: 17px;
+}
+.button_section {
+    background: transparent;
+    text-align: center;
+    padding-top: 40px;
+}
+.button {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 16px 20px;
+    width: 500px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+.button:hover {
+    background-color: rgb(85, 239, 196);
+}
+.Service_section {
+}
+.service_content {
+    margin-top: 35px;
+}
+.service_content h2 {
+    font-size: 45px;
+    margin-top: 3px;
+}
+.service_content p {
+    font-size: 19px;
+    margin-bottom: 90px;
+    margin-top: 35px;
+}
+.service_item {
+    float: left;
+    width: 23%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 1%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    text-align: center;
+}
+.service_item span {
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    line-height: 60px;
+    color: rgb(26, 151, 127);
+    margin-top: 28px;
+}
+.service_item h2 {
+    font-size: 26px;
+}
+.service_item p {
+    font-size: 16px;
+}
+.about {
+    border-top: 2px solid rgb(26, 151, 127);
+    margin-top: 87px;
+}
+.about h2 {
+    margin-top: 55px;
+    text-align: center;
+    font-size: 35px;
+}
+.about p {
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+.blog_contect_left {
+    float: left;
+    width: 60%;
+}
+.blog_contect_right {
+    float: right;
+    width: 40%;
+}
+.blog_item {
+    margin-top: 25px;
+}
+.blog_item h2 {
+    font-family: inherit;
+    font-weight: normal;
+}
+.blog_item p {
+    margin-top: 10px;
+}
+.contact_width {
+    background: rgb(246, 246, 246);
+    margin-top: 80px;
+}
+.contact {
+}
+.contact h2 {
+    font-size: 41px;
+    padding: 42px;
+}
+.contact p {
+    margin-bottom: 63px;
+}
+.contact_section {
+}
+.location_left {
+}
+.location {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.location span {
+    color: rgb(43, 230, 194);
+}
+.location h2 {
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.location p {
+    margin-top: 6px;
+    font-size: 21px;
+}
+.social_menu {
+    background-color: #38c9ab
+    ;
+}
+.social_menu ul {
+    padding: 25px;
+    text-align: center;
+}
+.social_menu ul li {
+    display: inline-block;
+}
+.social_menu ul li a {
+    text-align: center;
+    font-size: 28px;
+    margin-left: 35px;
+    color: rgb(255, 255, 255);
+}
+.footer_section {
+    background-color: rgb(34, 34, 34);
+}
+.footer_section p {
+    color: rgb(75, 75, 75);
+    padding: 20px 0px;
+    text-align: center;
+}
